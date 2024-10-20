@@ -32,40 +32,63 @@
           </ul>
         </nav>
       </header>
-     <div class="container-resumo">
-    <!-- Educação Section -->
-    <div class="section">
-        <p class="section-title">Educação</p>
-        <p class="empresa-texto"><strong>2018</strong> - Design de interiores, Universidade Cidade de São Paulo</p>
-        <p class="empresa-texto"><strong>2020-2025</strong> - Arquitetura e Urbanismo, Universidade Cidade de São Paulo</p>
-    </div>
+      <div class="container-resumo">
+        <!-- Educação Section -->
+        <div class="section">
+          <p class="section-title">Educação</p>
+          <p class="empresa-texto"><strong>2018</strong> - Design de interiores, Universidade Cidade de São Paulo</p>
+          <p class="empresa-texto"><strong>2020-2025</strong> - Arquitetura e Urbanismo, Universidade Cidade de São
+            Paulo</p>
+        </div>
 
-    <!-- Carreira Section -->
-    <div class="section">
-        <p class="section-title">Carreira</p>
+        <!-- Carreira Section -->
+        <div class="section">
+          <p class="section-title">Carreira</p>
 
-        <div class="empresa-texto">
+          <div class="empresa-texto">
             <strong>Estágio em Arquitetura - Help desk de softwares - Suporte Técnico</strong>
             <span>- SoluçõesCAD | Outubro de 2022 - Abril de 2023</span>
-        </div>
-        <span class="responsabilidades">
+          </div>
+          <span class="responsabilidades">
             Responsável por atendimento ao cliente, produção de conteúdos de softwares e apresentações online.
-        </span>
+          </span>
 
-        <div class="empresa-texto">
+          <div class="empresa-texto">
             <strong>Help desk de softwares - Suporte Técnico</strong>
             <span>- SoluçõesCAD | Abril de 2023 - Dezembro de 2023</span>
-        </div>
+          </div>
 
-        <div class="empresa-texto">
+          <div class="empresa-texto">
             <strong>Supervisora de Suporte Técnico</strong>
             <span>- SoluçõesCAD | Abril de 2024 - Outubro de 2024</span>
+          </div>
+          <span class="responsabilidades">
+            Responsável por gerir o departamento com todas as demandas, organização de materiais para feiras de
+            construção e arquitetura.
+          </span>
         </div>
-        <span class="responsabilidades">
-            Responsável por gerir o departamento com todas as demandas, organização de materiais para feiras de construção e arquitetura.
-        </span>
-    </div>
-</div>
+      </div>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.10/typed.min.js"></script>
+      <script>
+        /** creating button click show hide navbar **/
+        var togglebtn = document.querySelector(".togglebtn");
+        var nav = document.querySelector(".navlinks");
+        var links = document.querySelector(".navlinks li");
+
+        togglebtn.addEventListener("click", function () {
+          this.classList.toggle("click");
+          nav.classList.toggle("open");
+        })
+
+        var typed = new Typed(".input", {
+          strings: ["Designer de Interiores", "Estudante de Arquitetura e Urbanismo"],
+          typedSpeed: 70,
+          backSpeed: 55,
+          loop: true
+        })
+
+
+      </script>
 </body>
 
 </html>
