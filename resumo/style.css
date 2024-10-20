@@ -16,7 +16,7 @@ body {
     width: 100%;
     height: 100%;
     min-height: 100vh;
-    background: #0a0c10;
+    background: #e6dad9;
 }
 
 .wrapper {
@@ -43,9 +43,9 @@ header {
 .logo i {
     height: 45px;
     width: 45px;
-    background-color: #007ced;
+    background-color: #bd7569;
     border-radius: 50%;
-    color: #fff;
+    color: #464b4a;
     font-weight: 700;
     font-size: 1.5rem;
     padding: 10px;
@@ -58,7 +58,7 @@ header {
 .logo .logo-text {
     font-size: 24px;
     font-weight: 500;
-    color: #fff;
+    color: #464b4a;
 }
 
 nav .togglebtn {
@@ -74,7 +74,7 @@ nav .togglebtn {
 
 nav .togglebtn span {
     display: block;
-    background-color: #007ced;
+    background-color: #4e4051;
     margin: 5px 0px;
     width: 100%;
     height: 3px;
@@ -92,7 +92,7 @@ nav .navlinks li {
 }
 
 nav .navlinks li a {
-    color: #e5e5e5;
+    color: #464b4a;
     margin-right: 2.5rem;
 }
 
@@ -108,7 +108,7 @@ nav .navlinks li a {
     height: 300px;
 border-radius: 50%;
     overflow: hidden;
-    border: 1px solid #fff;
+    border: 1px solid #464b4a;
     box-shadow: 5px 7px 25px rgba(0, 0, 0, 0.5);
 }
 
@@ -122,7 +122,7 @@ border-radius: 50%;
 }
 
 .experiencia .subtitulo {
-    color: #fff;
+    color: #464b4a;
 }
 
 .experiencia-texto {
@@ -130,11 +130,11 @@ border-radius: 50%;
     line-height: 1.33;
     max-width: 40ch;
     margin-bottom: 60px;
-    color: #fff;
+    color: #464b4a;
 }
 
 .experiencia-texto strong {
-    color: #fff;
+    color: #464b4a;
 }
 
 .empresa {
@@ -142,8 +142,8 @@ border-radius: 50%;
     grid-template-columns: 1fr 1fr;
     gap: 10px 20px;
     padding: 20px;
-    border: solid 1px #fff;
-    background: #0a0c10;
+    border: solid 1px #bd7569;
+    background: #e6dad9;
     margin-bottom: 20px;
     border-radius: 4px;
     position: relative;
@@ -166,7 +166,7 @@ border-radius: 50%;
     left: -100px;
     text-align: right;
     width: 80px;
-    color: #fff;
+    color: #464b4a;
     font-size: 0.875rem;
 }
 
@@ -178,9 +178,11 @@ border-radius: 50%;
 }
 
 .empresa-texto {
-    font-size: 0.875rem;
-    line-height: 1.4;
-    color: #fff;
+    font-size: 1em;
+    line-height: 1.5;
+    color: #464b4a;
+    margin-bottom: 10px;
+    margin-top: 10px;
 }
 
 .empresa-habilidades {
@@ -198,6 +200,11 @@ border-radius: 50%;
     list-style-type: none;
     color: #fff;
     padding: 5px 10px;
+}
+.responsabilidades {
+    font-size: 0.9em;
+    color: #777; 
+    margin-bottom: 10px;
 }
 
 @media (max-width: 800px) {
@@ -369,8 +376,9 @@ border-radius: 50%;
     max-width: 800px;
     margin: 20px auto;
     padding: 50px;
-    border: 1px solid #fff;
+    border: 1px solid #bd7569;
     border-radius: 8px;
+    background: #f9f9f9;
 }
 
 .section {
@@ -379,8 +387,8 @@ border-radius: 50%;
 
 .section-title {
     font-weight: bold;
-    font-size: 1.2em;
-    color: #fff;
+    font-size: 1.5em; /* Increased for better emphasis */
+    color: #bd7569;
     margin-bottom: 10px;
 }
 
